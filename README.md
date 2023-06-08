@@ -1,2 +1,2 @@
 # weather
-Sample Project for open-weather apis
+Sample Android Application for open-weather apis

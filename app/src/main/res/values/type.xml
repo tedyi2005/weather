@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Heading H1 -->
+    <style name="TextAppearance.Basic.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textSize">@dimen/heading_h1_text_size</item>
+        <item name="fontFamily">@font/futura_lt_pro_bold</item>
+        <item name="lineHeight">52sp</item>
+    </style>
+
+    <!-- Heading H2 -->
+    <style name="TextAppearance.Basic.Headline3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="android:textSize">@dimen/heading_h2_text_size</item>
+        <item name="fontFamily">@font/futura_lt_pro_bold</item>
+        <item name="lineHeight">32sp</item>
+    </style>
+
+    <!-- Heading H3 -->
+    <style name="TextAppearance.Basic.Headline4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textSize">@dimen/heading_h3_text_size</item>
+        <item name="fontFamily">@font/futura_lt_pro_bold</item>
+        <item name="lineHeight">27sp</item>
+        <item name="fontWeight">700</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Basic.Headline5" parent="TextAppearance.MaterialComponents.Headline5" />
+
+    <style name="TextAppearance.Basic.Headline6" parent="TextAppearance.MaterialComponents.Headline6" />
+
+    <style name="TextAppearance.Basic.Subtitle1" parent="TextAppearance.Basic.Body1" />
+
+    <style name="TextAppearance.Basic.Subtitle2" parent="TextAppearance.Basic.Body2" />
+
+    <!-- Body Normal -->
+    <style name="TextAppearance.Basic.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">@dimen/body_normal_text_size</item>
+        <item name="fontFamily">@font/futura_lt_pro_medium</item>
+        <item name="lineHeight">24sp</item>
+    </style>
+
+    <!-- Body Small -->
+    <style name="TextAppearance.Basic.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textSize">@dimen/body_small_text_size</item>
+        <item name="fontFamily">@font/futura_lt_pro_medium</item>
+        <item name="lineHeight">20sp</item>
+        <item name="fontWeight">500</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextAppearance.Basic.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textSize">@dimen/body_normal_text_size</item>
+        <item name="fontFamily">@font/futura_lt_pro_medium</item>
+        <item name="lineHeight">24sp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <!-- Body ExtraSmall -->
+    <style name="TextAppearance.Basic.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">@dimen/body_extra_small_text_size</item>
+        <item name="fontFamily">@font/futura_lt_pro_medium</item>
+        <item name="lineHeight">16sp</item>
+        <item name="fontWeight">500</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextAppearance.Basic.Overline" parent="TextAppearance.MaterialComponents.Overline">
+
+    </style>
+</resources>

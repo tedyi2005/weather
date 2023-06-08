@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base theme, all common styling here -->
+    <style name="Base.Basic" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="materialAlertDialogTheme">
+            @style/BasicAlertDialogTheme
+        </item>
+
+        <!-- Material type attributes -->
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Basic.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Basic.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Basic.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Basic.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Basic.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Basic.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Basic.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Basic.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Basic.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Basic.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Basic.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.Basic.Overline</item>
+
+        <!-- Fonts -->
+        <item name="fontFamily">@font/futura_lt_pro_medium</item>
+        <item name="android:fontFamily">@font/futura_lt_pro_medium</item>
+
+        <item name="bottomSheetStyle">@style/BasicBottomSheetStyle</item>
+        <item name="bottomSheetDialogTheme">@style/BasicBottomSheetDialogTheme</item>
+        <item name="android:textViewStyle">@style/BasicTextView</item>
+        <item name="materialButtonStyle">@style/BasicButton</item>
+    </style>
+
+    <style name="Basic" parent="@style/Base.Basic" />
+
+</resources>
